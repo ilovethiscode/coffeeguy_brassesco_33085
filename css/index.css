@@ -1,0 +1,773 @@
+/* RESET PROPIEDADES GENERALES */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F7FFF7;
+    overflow-x: hidden;
+}
+
+/* FIN RESET Y COLOR BASE */
+
+
+
+
+
+
+
+
+/* COMIENZO ESTILOS DEL HEADER */
+
+.flagColor1{
+    width: 2930px;
+    height: 36px;
+    background-color: #06172B;
+    
+}
+
+.flagColor2{
+    width: 2930px;
+    height: 24px;
+    background-color: #982649;
+    
+}
+
+.logoContainer{
+    display: inline;
+    position: relative;
+    left: 330px;
+    
+
+}
+
+.navContainer{
+    display: inline;
+    position: absolute;
+    
+}
+
+.navContainer__menu {
+    position: relative;
+    left: 860px;
+    top: 26px;
+    
+}
+
+.navContainer__menu ul {
+    list-style: none;
+}
+
+.navContainer__menu ul li {
+    display: inline;
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 8px;
+    
+}
+
+.navContainer__menu ul li a{
+    text-decoration-line: none;
+}
+
+.navContainer__menu ul li a:visited{
+    text-decoration-line: none;
+}
+
+.navContainer__menu ul li a span {
+    color: #0F0D0C;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    
+}
+
+.navContainer__menu ul li a span:visited{
+    color: #0F0D0C;
+}
+
+.navContainer__menu ul li a span:hover{
+    border: solid;
+    color: #0F0D0C;
+}
+
+/* FIN ESTILOS DEL HEADER */
+
+
+
+
+
+
+.mainBanner a img{
+    position: relative;
+    left: 330px;
+}
+
+.mainBanner h1{
+    position: absolute;
+    left: 714px;
+    top: 608px;
+    border: solid;
+    border-color: #0F0D0C;
+    font-family: 'Roboto Slab', serif;
+    color: #982649;
+    
+}
+
+.secondBanner{
+    position: relative;
+    left: 330px;
+}
+
+.secondBanner__textContainer{
+    position: absolute;
+    width: 400px;
+    height: 215px;
+    left: 1263px;
+    top: 66px;
+    border: solid;
+    border-color: #0F0D0C;
+    
+}
+
+.secondBanner__textContainer h2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.information{
+    margin-top: 114px;
+}
+
+.information__card{
+    display: inline;
+    position: relative;
+    left: 502px;
+    margin-right: 168px;
+}
+
+#shopGallery{
+    margin-top: 48px;
+}
+
+.directShop{
+    display: inline;
+    position: relative;
+    
+    left: 330px;
+    margin-right: 24px;
+}
+
+.saleElements{
+    margin-bottom: 72px;
+}
+
+.saleElements__title{
+    position: relative;
+    left: 1016px;
+    margin-top: 96px;
+    margin-bottom: 106px;
+
+}
+
+.saleElements__title h4{
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration-color: #0F0D0C;
+    
+}
+
+.saleElements__title h5{
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    text-decoration-color: #0F0D0C;
+}
+
+.saleElements__card{
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+
+.saleElements__card h6{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.saleElements__card p{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.saleElements__card button{
+    width: 224px;
+    height: 36px;
+    background-color: #06172B;
+    position: relative;
+    left: 120px;
+    margin-top: 10px;
+    border-radius: 1ch;
+    border: solid;
+    border-color: #06172B;
+}
+
+.saleElements__card button p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #F7FFF7;
+}
+
+.saleElements__button{
+    width: 344px;
+    height: 56px;
+    background-color: #CF0010;
+    position: relative;
+    left: 1080px;
+    border-radius: 4ch;
+    border: solid;
+    border-color: #CF0010;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+.saleElements__button p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #F7FFF7;
+    background-color: #CF0010;
+    position: absolute;
+    left: 90px;
+}
+
+
+/* COMIENZO ESTILOS DEL FOOTER */
+
+#allFooter{
+    width: 2930px;
+    position: relative;
+    
+}
+
+.top{
+    position: relative;
+    background-color: #285A84;
+    width: 2930px;
+    height: 322px;
+}
+
+.top__newsLetter{
+    display: inline;
+    position: relative;
+    top: 100px;
+}
+
+.top__newsLetter__info{
+    display: inline-block;
+    position: relative;
+    width: 428px;
+    height: 144px;
+    left: 689px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #F7FFF7;
+
+}
+
+.top__newsLetter__info span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.top__newsLetter__mail{
+    display: inline-block;
+    position: absolute;
+    left: 1049px;
+    bottom: 50px;
+    width: 367px;
+    height: 57px;
+    box-sizing: content-box;
+    
+    
+}
+
+.top__newsLetter__mail__text{
+    width: 363px;
+    height: 53px;
+    
+}
+
+.top__newsLetter__mail button{
+    display: inline;
+    position: relative;
+    height: 57px;
+    bottom: 57px;
+    border: solid;
+    border-color: #06172B;
+    background-color: #06172B;
+    left: 366px;
+}
+
+.top__socialMedia{
+    display: inline-block;
+    background-color: #285A84;
+    width: 380px;
+    height: 144px;
+    position: relative;
+    left: 1629px;
+
+}
+
+.top__socialMedia a img{
+    margin-right: 29px;
+    position: relative;
+    right: 520px;
+    top: 40px;
+    background-color: #285A84;
+}
+
+.mid{    
+    background-color: #06172B;
+    position: relative;
+    width: 2930px;
+    height: 483px;
+    
+}
+
+.mid__blocks{
+
+    width: 2560px;
+    height: 483px;
+    display: inline-block;
+    position: relative;
+    left: 369px;
+    
+}
+
+.mid__blocks__institucional{
+    display: inline-block;
+    width: 222px;
+    height: 481px;
+    margin-right: 185px;
+    position: relative;
+
+    
+}
+
+.mid__blocks__institucional__title{
+    
+    position: relative;
+    
+}
+
+.mid__blocks__institucional__title span{
+
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #285A84;
+    
+}
+
+.mid__blocks__institucional__blockUnit{
+    height: 433px;
+}
+
+.mid__blocks__institucional__blockUnit__nav__ul{
+    list-style: none;
+}
+
+.mid__blocks__institucional__blockUnit__nav__ul__element--text span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+    display: inline-block;
+    color: #285A84;
+}
+
+.mid__blocks__institucional__blockUnit__nav__ul__element--text span:hover{
+    color: #F7FFF7;
+}
+
+
+.mid__blocks__legal{
+    display: inline-block;
+    width: 222px;
+    height: 481px;
+    margin-right: 185px;
+    position: relative;
+    bottom: 47px;
+}
+
+.mid__blocks__legal__title{
+    position: relative;
+    
+}
+
+.mid__blocks__legal__title span{
+
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #285A84;
+}
+
+.mid__blocks__legal__blockUnit{
+    height: 350px;
+}
+
+.mid__blocks__legal__blockUnit__nav__ul{
+    list-style: none;
+}
+
+.mid__blocks__legal__blockUnit__nav__ul__element--text span{
+    font-family: 'Barlow', sans-serif;
+    display: inline-block;
+    font-size: 39px;
+    font-weight: 400;
+    color: #285A84;
+}
+
+.mid__blocks__legal__blockUnit__nav__ul__element--text span:hover{
+    color: #F7FFF7;
+}
+
+
+.mid__blocks__cliente{
+    display: inline-block;
+    width: 222px;
+    height: 481px;
+    margin-right: 185px;
+}
+
+.mid__blocks__cliente__title{
+        position: relative;
+    
+}
+
+.mid__blocks__cliente__title span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #285A84;
+}
+
+.mid__blocks__cliente__blockUnit{
+    height: 433px;
+}
+
+.mid__blocks__cliente__blockUnit__nav__ul{
+    list-style: none;
+}
+
+.mid__blocks__cliente__blockUnit__nav__ul__element a{
+    text-decoration: none;
+}
+
+.mid__blocks__cliente__blockUnit__nav__ul__element--text span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+    color: #285A84;
+    text-decoration-style: none;
+    text-decoration: none;
+}
+
+.mid__blocks__cliente__blockUnit__nav__ul__element--text span:hover{
+    color: #F7FFF7;
+}
+
+.mid__blocks__servicios{
+    display: inline-block;
+    width: 222px;
+    height: 481px;
+    margin-right: 185px;
+    position: relative;
+    bottom: 94px;
+}
+
+.mid__blocks__servicios__title{
+    position: relative;
+    
+}
+
+.mid__blocks__servicios__title span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #285A84;
+    
+}
+
+.mid__blocks__servicios__blockUnit{
+    height: 433px;
+}
+
+.mid__blocks__servicios__blockUnit__nav__ul{
+    list-style: none;
+}
+
+.mid__blocks__servicios__blockUnit__nav__ul__element a{
+    text-decoration: none;
+}
+
+.mid__blocks__servicios__blockUnit__nav__ul__element a:visited{
+    
+    color: #285A84;
+}
+
+.mid__blocks__servicios__blockUnit__nav__ul__element--text span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+    color: #285A84;
+}
+
+.mid__blocks__servicios__blockUnit__nav__ul__element--text span:hover{
+    color: #F7FFF7;
+}
+
+
+.bottom{
+    position: relative;
+    background-color: #0F0D0C;
+    width: 2930px;
+    height: 246px;
+}
+
+.bottom__copyright__text{
+    position: relative;
+    left: 330px;
+    top: 97px;
+}
+
+.bottom__copyright__text p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 39px;
+    color: #F7FFF7;
+}
+
+/* FIN ESTILOS DEL FOOTER */
+
+
+
+/*ESTILOS SECCIÓN ABOUT*/
+
+.containerAbout{
+    position: relative;
+    
+}
+
+.about__banner{
+    position: relative;
+    left: 330px;
+}
+.about__text{
+    width: 1828px;
+    height: 1156px;
+    margin-top: 48px;
+    position: relative;
+    left: 366px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    color: #0F0D0C;
+    font-weight: 400;
+}
+
+.about__text__article h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    color: #0F0D0C;
+    font-weight: bolder;
+}
+
+.about__text__articleScondary h3{
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    color: #0F0D0C;
+    font-weight: 500;
+    margin-top: 56px;
+}
+
+/*FIN ESTILOS SECCIÓN ABOUT*/
+
+
+/*ESTILOS SECCIÓN SHOP*/
+
+.filtros{
+    display: inline-block;
+    position: relative;
+    bottom: 1000px;
+}
+
+.filtros ul{
+    display: inline-block;
+}
+
+.filtros span{
+    display: block;
+}
+
+.filtros__list{
+    list-style: none;
+}
+
+#containerShop{
+    position: relative;
+    bottom: 500px;
+}
+
+#cardsContainer{
+    display: inline-block;
+    width: 1893px;
+    height: 1248px;
+    position: relative;
+    left: 330px;
+    margin-top: 96px;
+    bottom: 50px;
+}
+
+/* FIN ESTILOS SECCIÓN SHOP*/
+
+
+/* ESTILOS SECCIÓN CONTACT*/
+
+.contact__banner{
+    position: relative;
+    left: 330px;
+}
+
+.contact__text{
+    width: 824px;
+    height: 160px;
+    text-align: left;
+    position: relative;
+    left: 390px;
+}
+
+.contact__text h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 64px;
+    color: #982649;
+    font-weight: bold;
+}
+
+.contact__text p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 39px;
+    color: #0F0D0C;
+    font-weight: 600;
+}
+
+.contact__form{
+    position: relative;
+    left: 390px;
+    margin-top: 112px;
+
+}
+
+.contact__form__elements{
+    width: 1000px;
+    height: 586px;
+}
+
+.contact__form span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 36px;
+    color: #0F0D0C;
+    font-weight: 500;
+}
+
+.contact__form__elements{
+    display: block;
+    position: relative;
+    margin: 50px;
+}
+
+.contact__form__elements label{
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    color: #0F0D0C;
+    font-weight: 500;
+}
+
+.contact__form__elements input{
+    display: block;
+}
+
+.contact__form__elements select{
+    display:block;
+}
+
+.contact__form__elements textarea{
+    display: block;
+}
+
+/* FIN ESTILOS SECCIÓN CONTACT*/
+
+
+/* ESTILOS SECCIÓN LOCALES*/
+
+.locales__banner{
+    position: relative;
+    left: 330px;
+}
+
+.locales__text{
+    width: 824px;
+    height: 160px;
+    text-align: left;
+    position: relative;
+    left: 390px;
+}
+
+.locales__text h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 64px;
+    color: #982649;
+    font-weight: bold;
+}
+
+.locales__text p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 39px;
+    color: #0F0D0C;
+    font-weight: 600;
+}
+
+.locales__search{
+    position: relative;
+    left: 700px;
+}
+
+.locales__search select{
+    margin-right: 100px;
+}
+
+.locales__map{
+    width: 607px;
+    position: relative;
+    left: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid;
+    box-sizing: border-box;
+    
+}
+
+/* FIN ESTILOS SECCIÓN LOCALES*/
+
+
+
